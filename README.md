@@ -1,4 +1,4 @@
-# markov-chain-calculator - Tighe Clough and Alton Banushi
+# markov_chain_calculator - Tighe Clough and Alton Banushi
 A Jupyter Notebook Project To Automate Common Markov Chain Calculations
 
 ## Goals:
