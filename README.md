@@ -10,8 +10,8 @@ We wish to differentiate between different kinds of Markov Chains, including:
 ### Ergodic Matrix Recognizer
 Classifying Markov chains as ergodic was more complicated than the other tasks for this calculator. 
 The approach we took was to consider the Markov chain as an unweighted directed graph, consisting of edges and nodes. 
-We used a pared-down Tarjan's algorithm to check if the graph has more than one single strongly connected component (SCC). 
-An SCC is a section of a graph where all nodes/states can reach each other. An ergodic transition matrix should have only one SCC that contains all nodes by definition.
+We used a pared-down Tarjan's algorithm to check if the graph has more than one strongly connected component (SCC). 
+An SCC is a section of a graph where all nodes/states can reach each other. An ergodic transition matrix should have only one SCC that contains all nodes (by definition).
 If the graph was found to have an SCC at a root node other than the first node searched, then we could determine that the graph
 has more than one SCC and classify it as non-ergodic. 
 
